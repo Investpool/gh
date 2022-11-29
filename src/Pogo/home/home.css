@@ -1,0 +1,30 @@
+.homeContainer{
+    padding-left: 10px;
+    
+}
+.homeGallery{
+    display: flex;
+}
+.firstGallery{
+    flex: 2;
+    border-radius: 15px;
+}
+.secondGallery{
+    flex: 2;
+}
+.thirdGallery{
+    flex: 2;
+}
+.fourthGallery{
+    flex: 2;
+    border-radius: 20px;
+}
+.fifthGallery{
+    flex: 2;
+}
+.sixthGallery{
+    flex: 2;
+}
+.fourth{
+    border-radius: 20px;
+}

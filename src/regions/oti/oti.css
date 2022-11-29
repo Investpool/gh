@@ -1,0 +1,40 @@
+.otiregion{
+    width: 100vw;
+    height: 100vh;
+    background-color: #eaf1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otiregionWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.otiRegionLeft{
+    flex: 1;
+    display: flex;
+    color: red;
+    
+}
+ .otiDistrictsRight{
+    height: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    flex: 2;
+    color: red;
+ }
+    
+.grOne, .grTwo, .grThree{
+    display: flex;
+}
+.districts{
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: blue;
+    cursor: pointer;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}

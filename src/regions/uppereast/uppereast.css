@@ -1,0 +1,49 @@
+.uppereastregion{
+    width: 100vw;
+    height: 100vh;
+    background-color: #93dfb0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uppereastregionWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.uppereastLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.uppereastDistrictsRight{
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column-reverse;
+    justify-content: space-between; 
+    flex: 4;
+    
+}
+.uppereastTitle{
+    font-size: x-large;
+    font-weight: 800;
+    color: red;
+}
+.districtItems{
+    color: red;
+}
+.grOne, .grTwo, .grThree, .grFour{
+    display: flex;
+}
+.districts{
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color:blue;
+    cursor: pointer;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}

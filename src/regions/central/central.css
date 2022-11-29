@@ -1,0 +1,50 @@
+.centralregion{
+    width: 100vw;
+    height: 100vh;
+    background-color: #a3c9c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centralregionWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.centralRegionLeft{
+    height: 400px;
+    padding: 20px;
+    color: rgb(202, 89, 23);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    flex: 1;
+}
+.centralDistrictsRight{
+    height: 480px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column-reverse;
+    justify-content: space-between; 
+    flex: 5;   
+}
+.districtsCentral{
+    color: red;
+    font-size: large;
+    font-weight: 800;
+}
+.grOne, .grTwo, .grThree, .grFour, .grFive, .grSix, .grSeven{
+    display: flex;
+}
+.districts{
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: blue;
+    cursor: pointer;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+

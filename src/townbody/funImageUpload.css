@@ -1,0 +1,10 @@
+.maintab{
+    display: flex;
+}
+.inputtab{
+    flex: 6;
+    margin: 20px;
+}
+.tabs{
+    flex: 6;
+}

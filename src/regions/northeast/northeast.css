@@ -1,0 +1,41 @@
+.northeastregion{
+    width: 100vw;
+    height: 100vh;
+    background-color: #32e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.northeastregionWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.northeastTitle{
+    color: red;
+    font-size: x-large;
+    font-weight: 800;
+    margin-right: 20px;
+}
+.northeastDistrictsRight{
+    height: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column-reverse;
+    justify-content: space-between; 
+    flex: 5;
+}
+.grOne, .grTwo{
+    display: flex;
+}
+.districts{
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: blue;
+    cursor: pointer;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+

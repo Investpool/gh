@@ -1,0 +1,72 @@
+.sidebar{
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.discussions{
+    color: rgb(132, 132, 138);
+    font-style: italic;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+   background-color: rgb(1, 2, 12);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(29, 14, 241);
+}
+
+.sidebarWrapper{
+    padding: 20px;
+   
+}
+.sidebarList{
+    padding: 0;
+    max-width: 0;
+    list-style: none;
+}
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.sidebarIcon{
+    margin-right: 15px;
+}
+.sidebarButton{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 100px;
+}
+.sidebarHr{
+    margin: 20px 0;
+
+}
+.sidebarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.regionItem{
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sidebarReg{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(84, 147, 224);
+    padding: 10px;
+}
+

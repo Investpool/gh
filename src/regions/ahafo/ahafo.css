@@ -1,0 +1,48 @@
+.ahafoRegion{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f4f5eef8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ahaforegionWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.ahafoRegionLeft{
+    height: 400px;
+    padding: 20px;
+    color: rgb(202, 89, 23);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    flex: 1;
+}
+.ahafoDistrictsRight{
+    height: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column-reverse;
+    
+    justify-content: space-between; 
+    flex: 3;
+}
+.headings{
+    color: red;
+}
+.grOne, .grTwo{
+    display: flex;
+}
+.districts{
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: blue;
+    cursor: pointer;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}

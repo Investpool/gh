@@ -1,0 +1,49 @@
+.westernregion{
+    width: 99vw;
+    height: 95vh;
+    background-color: #e6eeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.westernregionWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.westernLeft{
+ flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.westernDistrictsRight{
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column-reverse;
+    justify-content: space-between; 
+    flex: 2;
+}
+.westernTitle{
+    font-size: x-large;
+    font-weight: 800;
+    color: red;
+}
+.districtItems{
+    color: red;
+}
+.grOne, .grTwo, .grThree, .grFour, .grFive{
+    display: flex;
+}
+.districts{
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: blue;
+    cursor: pointer;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}

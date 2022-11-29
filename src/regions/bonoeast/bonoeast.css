@@ -1,0 +1,55 @@
+.bonoeastregion{
+    width: 100vw;
+    height: 100vh;
+    background-color: #dcf1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bonoeastRegionWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.bonoeastRegionLeft{
+    height: 400px;
+    padding: 20px;
+    color: rgb(202, 89, 23);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    flex: 1;
+} 
+.bonoeastDistrictsRight{
+    height: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column-reverse;
+    justify-content: space-between; 
+    flex: 4;
+}
+.bonoDistricts{
+    color: red;
+    font-weight: 900;
+    font-size: x-large;
+    margin-bottom: 40px;
+}
+.bonoTitle{
+    color: red;
+    font-size: x-large;
+    font-weight: 900;
+}
+.grOne, .grTwo, .grThree{
+    display: flex;
+}
+.districts{
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: blue;
+    cursor: pointer;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}

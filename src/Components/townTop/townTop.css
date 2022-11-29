@@ -1,0 +1,37 @@
+.townTop{
+    height: 50px;
+    width: 100%;
+    background-color: #088824;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-top: 0px;
+    
+}
+
+.townLogo{
+    flex: 4;
+    font-size: 24px;
+    color: aliceblue;
+    font-weight: 800;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;    
+    
+}
+.correspondent{
+    flex: 8;
+    
+    font-size: larger;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+.correspondence{
+    margin-right: 10px;
+    font-weight: 700;
+}
+.corresName{
+    font-style: italic;
+}
